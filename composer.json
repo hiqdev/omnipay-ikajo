@@ -1,0 +1,66 @@
+{
+    "name": "hiqdev/omnipay-ikajo",
+    "type": "library",
+    "description": "Ikajo driver for the Omnipay PHP payment processing library",
+    "keywords": [
+        "php",
+        "omnipay",
+        "ikajo",
+        "merchant",
+        "payment"
+    ],
+    "homepage": "https://github.com/hiqdev/omnipay-ikajo",
+    "license": "MIT",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/omnipay-ikajo",
+        "issues": "https://github.com/hiqdev/omnipay-ikajo/issues",
+        "wiki": "https://github.com/hiqdev/omnipay-ikajo/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "omnipay/common": "~2.3"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0",
+        "hiqdev/hidev-php": "*",
+        "hiqdev/hidev-hiqdev": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Ikajo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\Ikajo\\Tests\\": "tests/unit",
+            "Omnipay\\Ikajo\\Stubs\\": "tests/stubs"
+        }
+    }
+}
