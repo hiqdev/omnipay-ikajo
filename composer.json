@@ -52,6 +52,12 @@
         "hiqdev/hidev-php": "*",
         "hiqdev/hidev-hiqdev": "*"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-2.0": "2.0.x-dev",
+            "dev-master": "3.0.x-dev"
+        }
+    },
     "autoload": {
         "psr-4": {
             "Omnipay\\Ikajo\\": "src"
