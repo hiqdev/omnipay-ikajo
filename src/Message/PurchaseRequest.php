@@ -13,10 +13,12 @@ class PurchaseRequest extends AbstractRequest
         );
 
         $res = [
+            'key'            => $this->getPurse(),
             'payment'        => $this->getPayment(),
             'url'            => $this->getReturnUrl(),
             'error_url'      => $this->getCancelUrl(),
-            'sign'           => $this->signRequest()
+            'sign'           => $this->signRequest(),
+            'data'           => base64_encode(json_encode($this->getPaymentData())),
         ];
 
         if ($this->getTransactionId()) {

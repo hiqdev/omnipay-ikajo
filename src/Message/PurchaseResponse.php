@@ -10,7 +10,7 @@ use Omnipay\Common\Message\RedirectResponseInterface;
  */
 class PurchaseResponse extends AbstractResponse implements RedirectResponseInterface
 {
-    protected $_redirect = 'https://secure.payinspect.com/post';
+    protected $_redirect = 'https://secure.serviceplatformpc.com/payment/auth';
 
     public function isSuccessful()
     {

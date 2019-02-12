@@ -75,7 +75,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         return md5(strtoupper(
             implode('',
                 array_map('strrev', [
-                    $this->getSecret(),
+                    $this->getPurse(),
                     $this->getPayment(),
                     base64_encode(json_encode($this->getPaymentData())),
                     $this->getReturnUrl(),

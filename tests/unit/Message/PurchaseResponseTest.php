@@ -49,12 +49,14 @@ class PurchaseResponseTest extends TestCase
         $this->assertNull($response->getCode());
         $this->assertNull($response->getMessage());
         $this->assertSame('POST', $response->getRedirectMethod());
-        $this->assertStringStartsWith('https://secure.payinspect.com/post', $response->getRedirectUrl());
+        $this->assertStringStartsWith('https://secure.serviceplatformpc.com/payment/auth', $response->getRedirectUrl());
         $this->assertSame([
+            'key'            => $this->purse,
             'payment'        => 'CC',
             'url'            => $this->returnUrl,
             'error_url'      => $this->cancelUrl,
-            'sign'           => 'ec0eea3fca12c52e71bf37d2cbb1dab1',
+            'sign'           => '1b002db8a9aa2cbf0d43000c35e65d84',
+            'data'           => 'W3siYW1vdW50IjoiMTQuNjUiLCJjdXJyZW5jeSI6IlVTRCIsImRlc2NyaXB0aW9uIjoiVGVzdCBUcmFuc2FjdGlvbiBsb25nIGRlc2NyaXB0aW9uIn1d',
             'order'          => $this->transactionId,
         ], $response->getRedirectData());
     }

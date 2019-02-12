@@ -8,32 +8,7 @@ use Omnipay\Tests\TestCase;
 
 class CompletePurchaseResponseTest extends TestCase
 {
-
-//id     System unique transaction ID
-//order     Order ID
-//status     SALE, REFUND, CHARGEBACK
-//decline_reason     Reason of payment decline. Sent only on unsuccessful payments RRN
-//RRN value from the acquirer system
-//approval_code     Approval code value from the acquirer system
-//card     Card number mask (format: ХХХХХХ****ХХХХ)
-//description     Product description
-//amount     Product price
-//currency     Currency
-//name     Customers first and last name
-//email     Customers e-mail
-//country     Customers country (2-character code)
-//state     Customers state (2-character or 3-character code) city     Customers city
-//address     Customers address
-//date     Transaction date
-//ip     Customers IP
-//ext1     Client Parameter 1 (if present in the request)
-//ext2     Client Parameter 2 (if present in the request)
-//ext3     Client Parameter 3 (if present in the request)
-//ext4     Client Parameter 4 (if present in the request)
-//rc_id rc_token
-//Recurring ID (if the system supports recurring and property 'recurring' was set for the product)
-//Additional parameter for further recurring (if the system supports recurring and property 'recurring' was set for the product). Sent only on primary transactions
-//sign
+    /** @var CompletePurchaseRequest */
     private $request;
 
     private $purse  = 'vip.vip@corporation.incorporated';
