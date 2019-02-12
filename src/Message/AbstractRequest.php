@@ -1,4 +1,12 @@
 <?php
+/**
+ * Ikajo driver for the Omnipay PHP payment processing library
+ *
+ * @link      https://github.com/hiqdev/omnipay-ikajo
+ * @package   omnipay-ikajo
+ * @license   MIT
+ * @copyright Copyright (c) 2019, HiQDev (http://hiqdev.com/)
+ */
 
 namespace Omnipay\Ikajo\Message;
 
@@ -52,7 +60,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
     }
 
     /**
-     * Credit Card. Constant and the only available value
+     * Credit Card. Constant and the only available value.
      *
      * @return string
      */

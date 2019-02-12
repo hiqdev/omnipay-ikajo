@@ -1,11 +1,19 @@
 <?php
+/**
+ * Ikajo driver for the Omnipay PHP payment processing library
+ *
+ * @link      https://github.com/hiqdev/omnipay-ikajo
+ * @package   omnipay-ikajo
+ * @license   MIT
+ * @copyright Copyright (c) 2019, HiQDev (http://hiqdev.com/)
+ */
 
 namespace Omnipay\Ikajo\Tests\Message;
 
 use Omnipay\Ikajo\Message\CompletePurchaseRequest;
+use Omnipay\Ikajo\Message\CompletePurchaseResponse;
 use Omnipay\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
-use Omnipay\Ikajo\Message\CompletePurchaseResponse;
 
 class CompletePurchaseRequestTest extends TestCase
 {
