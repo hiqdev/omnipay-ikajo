@@ -1,5 +1,8 @@
-
 ## [Under development]
+
+## [2.0.0] - 2019-02-12
+
+- Implemented Ikajo Web Processing integration ([@SilverFire])
 
 ## [Development started] - 2019-02-11
 
@@ -12,3 +15,4 @@
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
 [Under development]: https://github.com/hiqdev/omnipay-ikajo/releases
+[2.0.0]: https://github.com/hiqdev/omnipay-ikajo/releases/tag/2.0.0
