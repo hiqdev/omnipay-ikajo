@@ -57,7 +57,7 @@ class PurchaseResponseTest extends TestCase
         $this->assertNull($response->getCode());
         $this->assertNull($response->getMessage());
         $this->assertSame('POST', $response->getRedirectMethod());
-        $this->assertStringStartsWith('https://secure.serviceplatformpc.com/payment/auth', $response->getRedirectUrl());
+        $this->assertStringStartsWith('https://secure.servhost.online/payment/auth', $response->getRedirectUrl());
         $this->assertSame([
             'key'            => $this->purse,
             'payment'        => 'CC',
