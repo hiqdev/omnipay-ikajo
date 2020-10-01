@@ -47,7 +47,8 @@ class CompletePurchaseResponseTest extends TestCase
 
     public function testNotDoneException()
     {
-        $this->setExpectedException('Omnipay\Common\Exception\InvalidResponseException', 'Transaction is not success: Bank is closed');
+        $this->expectException('Omnipay\Common\Exception\InvalidResponseException');
+        $this->expectExceptionMessage('Transaction is not success: Bank is closed');
         new CompletePurchaseResponse($this->request, [
             'decline_reason' => 'Bank is closed',
         ]);
@@ -55,7 +56,8 @@ class CompletePurchaseResponseTest extends TestCase
 
     public function testInvalidHashException()
     {
-        $this->setExpectedException('Omnipay\Common\Exception\InvalidResponseException', 'Invalid hash');
+        $this->expectException('Omnipay\Common\Exception\InvalidResponseException');
+        $this->expectExceptionMessage('Invalid hash');
         new CompletePurchaseResponse($this->request, [
             'status' => $this->status,
         ]);
@@ -63,7 +65,8 @@ class CompletePurchaseResponseTest extends TestCase
 
     public function testInvalidStatusException()
     {
-        $this->setExpectedException('Omnipay\Common\Exception\InvalidResponseException', 'Transaction is not success: unknown reason');
+        $this->expectException('Omnipay\Common\Exception\InvalidResponseException');
+        $this->expectExceptionMessage('Transaction is not success: unknown reason');
         new CompletePurchaseResponse($this->request, [
             'status' => 'FAILED',
             'hash' => '491472c49b06b4dfc972c882f7bea14b',

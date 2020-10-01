@@ -45,13 +45,13 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": ">=7.1",
         "ext-json": "*",
-        "omnipay/common": "~2.3"
+        "omnipay/common": "^3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.0",
-        "omnipay/tests": "~2.0",
+        "phpunit/phpunit": "^6.0",
+        "omnipay/tests": "^3.0",
         "hiqdev/hidev-php": "*",
         "hiqdev/hidev-hiqdev": "*"
     },
