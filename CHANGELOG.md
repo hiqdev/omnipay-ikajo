@@ -1,5 +1,9 @@
 ## [Under development]
 
+## [2.0.1] - 2019-04-25
+
+- Fixed Ikajo redirect URL ([@SilverFire], [@BladeRoot])
+
 ## [2.0.0] - 2019-02-12
 
 - Implemented Ikajo Web Processing integration ([@SilverFire])
@@ -14,5 +18,6 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/omnipay-ikajo/releases
+[Under development]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...HEAD
 [2.0.0]: https://github.com/hiqdev/omnipay-ikajo/releases/tag/2.0.0
+[2.0.1]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...2.0.1
