@@ -1,6 +1,11 @@
 ## [Under development]
 
-## [2.0.1] - 2019-04-25
+## [3.0.0] - 2020-10-01
+
+- Update to Omnipay v3
+    - [14ca77b] 2020-10-01 Update to Omnipay v3 [@SilverFire]
+
+## [2.0.1] - 2020-10-01
 
 - Fixed Ikajo redirect URL
     - [567771b] 2019-04-25 Merge pull request #2 from bladeroot/ikajo-url [@SilverFire]
@@ -31,7 +36,7 @@
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
 [38abe65]: https://github.com/hiqdev/omnipay-ikajo/commit/38abe65
-[Under development]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...HEAD
+[Under development]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.1...HEAD
 [644f2e2]: https://github.com/hiqdev/omnipay-ikajo/commit/644f2e2
 [3cbded1]: https://github.com/hiqdev/omnipay-ikajo/commit/3cbded1
 [01bf672]: https://github.com/hiqdev/omnipay-ikajo/commit/01bf672
@@ -45,3 +50,5 @@
 [b6149d6]: https://github.com/hiqdev/omnipay-ikajo/commit/b6149d6
 [635b5e5]: https://github.com/hiqdev/omnipay-ikajo/commit/635b5e5
 [2.0.1]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...2.0.1
+[14ca77b]: https://github.com/hiqdev/omnipay-ikajo/commit/14ca77b
+[3.0.0]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.1...3.0.0
