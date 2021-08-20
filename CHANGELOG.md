@@ -1,6 +1,10 @@
 ## [Under development]
 
-## [2.0.1] - 2019-04-25
+## [2.0.2] - 2021-08-20
+
+- Enable PHP 8 support ([@SilverFire])
+
+## [2.0.1] - 2020-10-01
 
 - Fixed Ikajo redirect URL ([@SilverFire], [@BladeRoot])
 
@@ -21,3 +25,4 @@
 [Under development]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...HEAD
 [2.0.0]: https://github.com/hiqdev/omnipay-ikajo/releases/tag/2.0.0
 [2.0.1]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...2.0.1
+[2.0.2]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.1...2.0.2
