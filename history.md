@@ -1,5 +1,10 @@
 ## [Under development]
 
+## [3.0.1] - 2021-08-09
+
+- Support PHP 8
+    - [9d7c8ce] 2021-08-09 fixed php version to be compatible with php8 [smy980807@ukr.net]
+
 ## [3.0.0] - 2020-10-01
 
 - Update to Omnipay v3
@@ -52,3 +57,5 @@
 [2.0.1]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.0...2.0.1
 [14ca77b]: https://github.com/hiqdev/omnipay-ikajo/commit/14ca77b
 [3.0.0]: https://github.com/hiqdev/omnipay-ikajo/compare/2.0.1...3.0.0
+[9d7c8ce]: https://github.com/hiqdev/omnipay-ikajo/commit/9d7c8ce
+[3.0.1]: https://github.com/hiqdev/omnipay-ikajo/compare/3.0.0...3.0.1
